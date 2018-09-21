@@ -1,0 +1,4 @@
+<structure name="query">
+    <field name="address" type="java.lang.String"/>
+    <field name="key" type="java.lang.String"/>
+</structure>

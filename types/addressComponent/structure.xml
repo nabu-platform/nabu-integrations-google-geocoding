@@ -1,0 +1,5 @@
+<structure name="component">
+    <field name="long_name" type="java.lang.String"/>
+    <field name="short_name" type="java.lang.String"/>
+    <field maxOccurs="unbounded" name="types" type="java.lang.String"/>
+</structure>

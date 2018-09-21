@@ -1,0 +1,4 @@
+<structure name="point">
+    <field name="lat" type="java.lang.Double"/>
+    <field name="lng" type="java.lang.Double"/>
+</structure>

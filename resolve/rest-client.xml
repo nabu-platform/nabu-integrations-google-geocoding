@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restClient>
+    <path>/maps/api/geocode/json</path>
+    <queryParameters>address, key</queryParameters>
+    <output>nabu.integrations.google.geocoding.types.geocodeResultList</output>
+    <host>maps.googleapis.com</host>
+    <secure>true</secure>
+    <lenient>true</lenient>
+</restClient>

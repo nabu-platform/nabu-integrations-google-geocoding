@@ -1,0 +1,14 @@
+<structure name="result">
+    <structure definition="nabu.integrations.google.geocoding.types.addressComponent" maxOccurs="unbounded" minOccurs="0" name="address_components"/>
+    <field minOccurs="0" name="formatted_address" type="java.lang.String"/>
+    <structure minOccurs="0" name="geometry">
+        <structure definition="nabu.integrations.google.geocoding.types.point" name="location"/>
+        <field name="location_type" type="java.lang.String"/>
+        <structure name="viewport">
+            <structure definition="nabu.integrations.google.geocoding.types.point" name="northeast"/>
+            <structure definition="nabu.integrations.google.geocoding.types.point" name="southwest"/>
+        </structure>
+    </structure>
+    <field minOccurs="0" name="place_id" type="java.lang.String"/>
+    <field maxOccurs="unbounded" minOccurs="0" name="types" type="java.lang.String"/>
+</structure>
