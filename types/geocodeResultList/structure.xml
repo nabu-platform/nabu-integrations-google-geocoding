@@ -1,4 +1,5 @@
 <structure name="resultList">
     <structure definition="nabu.integrations.google.geocoding.types.geocodeResult" maxOccurs="unbounded" minOccurs="0" name="results"/>
     <field name="status" type="java.lang.String"/>
+    <field minOccurs="0" name="error_message" type="java.lang.String"/>
 </structure>
