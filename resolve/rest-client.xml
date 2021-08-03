@@ -2,7 +2,7 @@
 <restClient>
     <method>GET</method>
     <path>/maps/api/geocode/json</path>
-    <queryParameters>address, key</queryParameters>
+    <queryParameters>address, key, region, components</queryParameters>
     <output>nabu.integrations.google.geocoding.types.geocodeResultList</output>
     <host>maps.googleapis.com</host>
     <secure>true</secure>

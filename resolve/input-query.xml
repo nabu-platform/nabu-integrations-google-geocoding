@@ -1,4 +1,6 @@
 <structure name="query">
     <field name="address" type="java.lang.String"/>
     <field name="key" type="java.lang.String"/>
+    <field maxOccurs="unbounded" minOccurs="0" name="region" type="java.lang.String"/>
+    <field maxOccurs="unbounded" minOccurs="0" name="components" type="java.lang.String"/>
 </structure>
