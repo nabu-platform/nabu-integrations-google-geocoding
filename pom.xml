@@ -14,5 +14,9 @@
 			<groupId>nabu.web.rest</groupId>
 			<artifactId>client</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>nabu.types</groupId>
+			<artifactId>structure</artifactId>
+		</dependency>
 	</dependencies>
 </project>
